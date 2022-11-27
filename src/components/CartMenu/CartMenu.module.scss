@@ -1,0 +1,20 @@
+.cartMenu{
+    position: absolute;
+    top: 30px;
+    left: -300px;
+    background-color: rgb(36, 37, 41);
+    padding: 10px 20px ;
+    z-index: 2;
+    width: 400px;
+    border-radius: 15px;
+    .cartMenuArrange{
+        margin-top: 20px;
+        padding: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        .cartMenuTotalPrice{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    }
+}
