@@ -1,0 +1,14 @@
+.gamePageContent{
+    display: flex;
+    .gamePageLedt{
+        width: 70%;
+    }
+    .gamePageRight{
+        width: 30%;
+    }
+    .gamePageByGame{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+}
